@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #E9EBEE; }
+
+h1 {
+  margin-bottom: 1.4rem;
+  font-size: 1.6rem; }
+
+h2 {
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem; }
+
+h3 {
+  margin-bottom: 1.4rem;
+  font-size: 1.3rem; }
+
+p {
+  margin-bottom: 1.4rem;
+  font-size: 1.2rem; }
+
+.navbar-container {
+  background-color: #4868AD; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1012px;
+  margin: 0 auto;
+  padding: 5px 0;
+  box-sizing: border-box;
+  height: 42px;
+  flex-wrap: nowrap; }
+
+.search-bar {
+  display: flex;
+  max-width: 40rem;
+  width: 90%; }
+
+.search-bar__logo {
+  width: 24px;
+  height: 24px;
+  margin: auto 0 auto 0.7rem;
+  box-sizing: border-box; }
+
+.search-bar-text {
+  margin-left: 0.7rem;
+  background-color: white;
+  display: flex;
+  max-width: 50rem;
+  width: 100%;
+  justify-content: center;
+  border-radius: 2px; }
+
+.search-bar-text__input {
+  width: 100%;
+  font-size: 1.6rem;
+  margin: auto 0 auto 0.7rem;
+  border: none; }
+  .search-bar-text__input:focus {
+    outline: none; }
+
+.search-bar-text__icon {
+  border-radius: 2px;
+  background-color: #f2f3f5;
+  padding: 0 1.4rem;
+  max-width: 24px;
+  max-height: 24px; }
+  .search-bar-text__icon:hover {
+    background-color: #ccd1d8; }
+
+.navbar-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 240px;
+  margin-left: 1.4rem; }
+
+.navbar-menu__img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  margin-right: -0.7rem;
+  z-index: 1; }
+
+.navbar-menu__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 24px;
+  text-align: center;
+  padding: 0 1.4rem;
+  border-right: 1px solid #595959; }
+  .navbar-menu__link:hover {
+    background-color: #395289; }
+
+.social-card {
+  box-sizing: border-box;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.4rem auto;
+  background-color: white;
+  border: 1px solid #dbdee3;
+  border-radius: 5px; }
+
+.social-card-title {
+  margin: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.social-card-title-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center; }
+
+.social-card-title__img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  margin-right: 1.4rem; }
+
+.social-card-title__text {
+  font-size: 1.4rem; }
+
+.social-card-title__link {
+  color: #4868AD;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.4rem; }
+
+.social-card__public-icon {
+  width: 2.4rem;
+  height: 2.4rem; }
+
+.social-card-img {
+  width: 100%; }
+
+.social-card-title__more-button {
+  font-size: 1.6rem;
+  cursor: pointer; }
+
+.social-card-title__text__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.social-card-info-container {
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  background: #f2f3f5;
+  border-bottom: 1px solid #dde1e5; }
+
+.social-card-info__title {
+  color: #e04c60;
+  font-size: 1.4rem; }
+
+.social-card-subtitle {
+  font-size: 1.6rem;
+  font-weight: 600; }
+
+.social-card-info__img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  margin-right: -0.7rem;
+  border: 2px solid white;
+  box-sizing: border-box; }
+
+.social-card-info__people {
+  margin-left: 1.4rem;
+  font-size: 1.2rem; }
+
+.social-card-button-star-container {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #afb7c2;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin: auto;
+  padding: 0.7rem 1rem;
+  cursor: pointer; }
+  .social-card-button-star-container:hover {
+    background-color: #eff0f2; }
+
+.social-card-star__icon {
+  width: 12px;
+  height: 12px; }
+
+.social-card-star__text {
+  margin-left: 10px;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4d4c4c; }
+
+.social-card-people__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }

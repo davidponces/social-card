@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica,
+        Arial,
+        sans-serif;
+    background-color: $background-color;
+}
+
+h1 {
+    margin-bottom: $spacing;
+    font-size: $xl-font;
+}
+
+h2 {
+    margin-bottom: $spacing;
+    font-size: $l-font;
+}
+
+h3 {
+    margin-bottom: $spacing;
+    font-size: $m-font;
+
+}
+
+p {
+    margin-bottom: $spacing;
+    font-size: $s-font;
+}
