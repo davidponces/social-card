@@ -1,6 +1,7 @@
 .social-card {
 	box-sizing: border-box;
 	width: 500px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	margin: $spacing auto;
@@ -146,29 +147,28 @@
 	justify-content: space-between;
 }
 
-.social-card-interaction-button-container {}
 
 .social-card-interaction {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	// justify-content: space-around;
 	padding: 4px;
 	box-sizing: border-box;
 	border-bottom: 1px solid darken($background-color, 4%);
 }
+
 
 .social-card-interaction-button {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 5px 2.4rem;
-	margin: 0 6px;
+	padding: 5px 0;
 	border-radius: 3px;
-	width: 100%;
 	box-sizing: border-box;
 	cursor: pointer;
+	flex-grow: 1;
 
 	&:hover {
 		background-color: lighten($background-color, 4%);
@@ -180,7 +180,7 @@
 	font-weight: 500;
 	line-height: $m-font;
 	color: darken($background-color, 50%);
-	margin: 0 $spacing;
+	margin-left: $spacing;
 }
 
 

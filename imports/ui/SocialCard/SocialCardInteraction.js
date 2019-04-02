@@ -4,7 +4,7 @@ export default class SocialCardInteraction extends React.Component {
 	render() {
 		return (
 			<div className='social-card-bottom'>
-				<div className='social-card-interaction-button-container'>
+				<div className='social-card-interaction-container'>
 					<div className='social-card-interaction'>
 						<div className='social-card-interaction-button'>
 							<img className='social-card-interactiong-img' src='/images/like.png' alt='Gosto Icon' />
